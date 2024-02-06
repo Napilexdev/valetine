@@ -1,0 +1,58 @@
+body {
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+
+.header-container {
+  text-align: center;
+  padding: 20px;
+  background-color: pink;
+  position: relative;
+}
+
+.animated-gif {
+  max-width: 12%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.valentine-question {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff4081; /* Różowy kolor */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #d81b60; /* Ciemniejszy odcień różowego przy najechaniu kursorem */
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+.confirmation-message {
+  text-align: center;
+  padding: 20px;
+  background-color: pink;
+}

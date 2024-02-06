@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header-container">
+        <img src="white-dog-shaking.gif" alt="Animowany GIF" class="animated-gif">
+        <h1>Zostaniesz moja Walentynka?????????</h1>
+        <div class="valentine-question">
+            <button onclick="redirectToYes()">Tak</button>
+            <button onclick="redirectToNo()">Nie</button>
+        </div>
+    </div>
+
+    <script>
+        function redirectToYes() {
+            window.location.href = 'confirmation-yes.html';
+        }
+
+        function redirectToNo() {
+            window.location.href = 'confirmation-no.html';
+        }
+    </script>
+
+</body>
+</html>
